@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MCM Planter Generator</title>
+</head>
+<body>
+    <h1>Mid-Century Modern Planter Generator</h1>
+    <form action="/generate" method="post">
+        <label>Shape (currently just tapered):</label><br>
+        <input type="text" name="shape" value="tapered" readonly><br><br>
+
+        <label>Top Diameter (mm):</label><br>
+        <input type="number" name="diameter_top" value="120"><br><br>
+
+        <label>Bottom Diameter (mm):</label><br>
+        <input type="number" name="diameter_bottom" value="100"><br><br>
+
+        <label>Height (mm):</label><br>
+        <input type="number" name="height" value="150"><br><br>
+
+        <label>Wall Thickness (mm):</label><br>
+        <input type="number" name="thickness" value="4"><br><br>
+
+        <input type="submit" value="Generate STL">
+    </form>
+</body>
+</html>
