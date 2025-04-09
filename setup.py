@@ -32,7 +32,7 @@ def main():
     install_dependencies()
     print("\n✅ Setup complete!")
     print("To activate the environment:\n  source env/bin/activate")
-    print("To run the app:\n  python app.py")
+    print("To run the app:\n  python potfoundry_web.py")
 
 if __name__ == "__main__":
     main()
